@@ -71,7 +71,7 @@ flags.DEFINE_bool("disable_fog", False, "Whether tp disable fog of war.")
 flags.DEFINE_integer("observed_player", 1, "Which player to observe. For 2 player game, this can be 1 or 2.")
 
 flags.DEFINE_integer("save_type", 0, "0 is torch_tensor, 1 is python_pickle, 2 is numpy_array")
-flags.DEFINE_string("replay_version", "3.16.1", "the replays released by blizzard are all 3.16.1 version")
+flags.DEFINE_string("replay_version", "4.6.0", "the replays released by blizzard are all 3.16.1 version")
 
 # note, replay path should be absoulte path
 # D:/work/gitproject/mini-AlphaStar/data/Replays/filtered_replays_1/
