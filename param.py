@@ -6,7 +6,7 @@ on_server = False
 #on_server = True
 
 '''The replay path'''
-replay_path = "data/Replays/filtered_replays_1/"
+replay_path = "/mini-AlphaStar/scripts/download_replay/third/replay/"
 #replay_path = "/home/liuruoze/data4/mini-AlphaStar/data/filtered_replays_1/"
 #replay_path = "/home/liuruoze/mini-AlphaStar/data/filtered_replays_1/"
 

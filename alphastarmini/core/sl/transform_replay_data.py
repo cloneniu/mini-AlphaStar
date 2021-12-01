@@ -76,7 +76,7 @@ flags.DEFINE_string("replay_version", "3.16.1", "the replays released by blizzar
 # note, replay path should be absoulte path
 # D:/work/gitproject/mini-AlphaStar/data/Replays/filtered_replays_1/
 # D:/work/gitproject/mini-AlphaStar/data/Replays/small_simple64_replays/
-flags.DEFINE_string("no_server_replay_path", "D:/work/gitproject/mini-AlphaStar/data/Replays/filtered_replays_1/", "path of replay data")
+flags.DEFINE_string("no_server_replay_path", "/mini-AlphaStar/scripts/download_replay/third/replay/", "path of replay data")
 
 flags.DEFINE_bool("save_data", False, "replays_save data or not")
 flags.DEFINE_string("save_path", "./data/replay_data/", "path to replays_save replay data")
