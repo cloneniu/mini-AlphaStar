@@ -147,7 +147,7 @@ def getFeatureAndLabel_numpy(obs, func_call, delay=None):
     print("feature.shape:", feature.shape) if debug else None
 
     print("begin a:") if debug else None
-    print('func_call', func_call) if 1 else None
+    print('func_call', func_call) if debug else None
     action = Agent.func_call_to_action(func_call)
     action.delay = min(delay, LS.delay_encoding - 1)
     print("action:", action) if debug else None
